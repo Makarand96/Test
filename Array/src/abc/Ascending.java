@@ -7,7 +7,7 @@ public class Ascending {
 
 		
 		int i [] = {2,5,10,6,7,4};
-	//	int i [] = {2,5,10,6,7,4}; changes by rohit
+	
 //		int i [] = {2,5,10,6,7,4}; changes by rohit	
 		for (int c = 0;c<i.length;c++)
 				{
