@@ -5,8 +5,10 @@ public class Ascending {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int i [] = {2,5,10,6,7,4};
 		
+		int i [] = {2,5,10,6,7,4};
+	
+//		int i [] = {2,5,10,6,7,4}; changes by rohit	
 		for (int c = 0;c<i.length;c++)
 				{
 					for (int a=0;a<(i.length-1);a++)
