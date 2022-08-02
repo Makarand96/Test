@@ -24,7 +24,7 @@ public class Ascending {
 		
 				for (int d=0;d<i.length;d++)
 						{
-							System.out.print(","+i[d]);
+							System.out.println(i[d]);
 						}
 		
 		

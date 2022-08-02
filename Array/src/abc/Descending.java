@@ -12,11 +12,11 @@ int i [] = {2,5,10,6,7,4};
 					for (int a=0;a<(i.length-1);a++)
 					{
 						if (i[a] < i[a+1])
-								{
-							int b = i[a];
-							i[a]=i[a+1];
-							i[a+1]=b;
-								}
+							{
+								int b = i[a];
+								i[a]=i[a+1];
+								i[a+1]=b;
+						}
 					}
 				}
 		

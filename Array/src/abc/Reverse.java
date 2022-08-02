@@ -21,8 +21,23 @@ public class Reverse {
 			System.out.println(i[c]);
 		}
 		
+	System.out.println("--------------------------------");	
 		
+        int y [] = {2,5,8,10,45,6,7};
+        
+        int[] z = new int[y.length];
+		
+		for (int x=0;x<y.length;x++)
+		{
+			 z[(y.length-1)-x] = y[x];
+		}
+		
+		y = z;
+		for (int d =0; d<y.length;d++)
+		{
+		System.out.println(y[d]);
 		
 	}
 
+}
 }
