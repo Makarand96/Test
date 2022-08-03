@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-19T11:55:58Z" name="Suite" finished-at="2021-06-19T11:57:19Z" duration-ms="81174">
+    <groups>
+    </groups>
+    <test started-at="2021-06-19T11:55:58Z" name="ChromeTest" finished-at="2021-06-19T11:56:33Z" duration-ms="35120">
+      <class name="test.test1">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.test1@291f18]" started-at="2021-06-19T11:55:58Z" name="launchBrowser" finished-at="2021-06-19T11:56:02Z" duration-ms="3862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:test.test1@291f18]" started-at="2021-06-19T11:56:02Z" name="Beforeclass" finished-at="2021-06-19T11:56:13Z" duration-ms="11214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method signature="Verifyholdings()[pri:0, instance:test.test1@291f18]" started-at="2021-06-19T11:56:13Z" name="Verifyholdings" finished-at="2021-06-19T11:56:18Z" duration-ms="4646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyholdings -->
+        <test-method signature="Verifyposition()[pri:0, instance:test.test1@291f18]" started-at="2021-06-19T11:56:18Z" name="Verifyposition" finished-at="2021-06-19T11:56:21Z" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyposition -->
+        <test-method signature="verifyOrder()[pri:0, instance:test.test1@291f18]" started-at="2021-06-19T11:56:21Z" name="verifyOrder" finished-at="2021-06-19T11:56:24Z" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrder -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.test1@291f18]" started-at="2021-06-19T11:56:24Z" name="afterclass" finished-at="2021-06-19T11:56:32Z" duration-ms="7477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:test.test1@291f18]" started-at="2021-06-19T11:56:32Z" name="aftertest" finished-at="2021-06-19T11:56:33Z" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- test.test1 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-06-19T11:56:33Z" name="FirefoxTest" finished-at="2021-06-19T11:57:19Z" duration-ms="45949">
+      <class name="test.test1">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.test1@7a220c9a]" started-at="2021-06-19T11:56:33Z" name="launchBrowser" finished-at="2021-06-19T11:56:45Z" duration-ms="11783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:test.test1@7a220c9a]" started-at="2021-06-19T11:56:45Z" name="Beforeclass" finished-at="2021-06-19T11:56:59Z" duration-ms="14158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method signature="Verifyholdings()[pri:0, instance:test.test1@7a220c9a]" started-at="2021-06-19T11:56:59Z" name="Verifyholdings" finished-at="2021-06-19T11:57:02Z" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyholdings -->
+        <test-method signature="Verifyposition()[pri:0, instance:test.test1@7a220c9a]" started-at="2021-06-19T11:57:02Z" name="Verifyposition" finished-at="2021-06-19T11:57:06Z" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyposition -->
+        <test-method signature="verifyOrder()[pri:0, instance:test.test1@7a220c9a]" started-at="2021-06-19T11:57:06Z" name="verifyOrder" finished-at="2021-06-19T11:57:09Z" duration-ms="3324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrder -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.test1@7a220c9a]" started-at="2021-06-19T11:57:09Z" name="afterclass" finished-at="2021-06-19T11:57:15Z" duration-ms="6366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:test.test1@7a220c9a]" started-at="2021-06-19T11:57:15Z" name="aftertest" finished-at="2021-06-19T11:57:19Z" duration-ms="3597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- test.test1 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

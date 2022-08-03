@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extendReports.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="test.test1">
+        <methods>
+          <include name="afterclass"/>
+          <include name="aftertest"/>
+          <include name="Beforeclass"/>
+          <include name="launchBrowser"/>
+          <include name="verifyOrder"/>
+          <include name="Verifyholdings"/>
+          <include name="Verifyposition"/>
+        </methods>
+      </class> <!-- test.test1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
