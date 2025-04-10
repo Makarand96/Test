@@ -14,6 +14,10 @@ public class CastingClass {
 	int k = (int)x;
 	System.out.println(k); 
 	
+	for(int i=0; i<10;i++)
+	{
+		System.out.println("I love programing");
+	}
 	
 }
 	
