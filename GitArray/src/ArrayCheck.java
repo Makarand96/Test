@@ -13,9 +13,9 @@ public class ArrayCheck {
 	ArrayList<String> a = new ArrayList<String>();
 	a.add("Makarand");
 	a.add("HelloWorld");
-	a.add("hi");
+	a.add("hello");
 	a.add("FullName");
-	a.add("simple");
+	a.add("Address");
 	a.remove(4);
 	
 	System.out.println(a.get(1));
