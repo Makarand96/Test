@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class ArrayCheck {
 
@@ -10,7 +12,7 @@ public class ArrayCheck {
 	
 	ArrayList<String> a = new ArrayList<String>();
 	a.add("Mak");
-	a.add("Hello");
+	a.add("Hero");
 	a.add("hi");
 	a.add("name");
 	a.add("simple");
@@ -25,7 +27,11 @@ public class ArrayCheck {
 	{
 		System.out.println(a.get(i)); 
 	}
-	
-	}
 
+	List lis = Arrays.asList(a);
+	
+	System.out.println(lis.get(0));
+	}
+	
 }
+
