@@ -29,9 +29,10 @@ public class ArrayCheck {
 	}
 
 	List lis = Arrays.asList(a);
-	
+	{
 	System.out.println(lis.get(0));
 	}
 	
+}
 }
 
