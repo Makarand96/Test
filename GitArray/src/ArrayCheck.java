@@ -12,11 +12,11 @@ public class ArrayCheck {
 	
 	ArrayList<String> a = new ArrayList<String>();
 	a.add("Mak");
-	a.add("Hero");
+	a.add("HelloWorld");
 	a.add("hi");
-	a.add("name");
+	a.add("FullName");
 	a.add("simple");
-	a.remove(4);
+	a.remove(55);
 	
 	System.out.println(a.get(1));
 	
