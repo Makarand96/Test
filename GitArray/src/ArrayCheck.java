@@ -11,10 +11,10 @@ public class ArrayCheck {
 	//Arraylist is Class in Util package of Java library.
 	
 	ArrayList<String> a = new ArrayList<String>();
-	a.add("Mak");
+	a.add("Makarand");
 	a.add("Hero");
 	a.add("hi");
-	a.add("name");
+	a.add("Address");
 	a.add("simple");
 	a.remove(4);
 	
