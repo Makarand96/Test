@@ -13,9 +13,9 @@ public class ArrayCheck {
 	ArrayList<String> a = new ArrayList<String>();
 	a.add("Laptop");
 	a.add("Sunflower");
-	a.add("hello");
+	a.add("Hi");
 	a.add("Street 42");
-	a.add("minimal");
+	a.add("CheckCheck");
 	
 	System.out.println(a.get(1));
 	
